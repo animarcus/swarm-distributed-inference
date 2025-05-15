@@ -50,5 +50,4 @@ echo "Starting Exo with model ${MODEL_NAME}..."
 exo --discovery-module tailscale \
     --tailscale-api-key "${TAILSCALE_TOKEN}" \
     --tailnet-name "${TAILNET_NAME}" \
-    --model "${MODEL_NAME}" \
     --inference-engine "${INFERENCE_ENGINE}"
